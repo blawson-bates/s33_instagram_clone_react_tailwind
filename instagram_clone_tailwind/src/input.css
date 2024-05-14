@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.material-icons.post-icon {
+  @apply text-[30px] hover:cursor-pointer hover:text-gray-500 mt-[10px];
+}
+.material-icons.post-icon-share {
+  @apply text-[31px] hover:cursor-pointer hover:text-gray-500 -mt-[2px] -rotate-[35deg];
+}
